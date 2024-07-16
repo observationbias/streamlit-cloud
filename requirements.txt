@@ -1,5 +1,3 @@
 python-dotenv
 openai
 streamlit
-time
-os
