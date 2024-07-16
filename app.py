@@ -9,7 +9,7 @@ API_KEY = os.environ['OPENAPI_KEY']
 client = OpenAI(api_key=API_KEY)
 
 # 테스트 대화를 나눌 어시스턴트 아이디를 입력합니다.
-assistant_id = "asst_ujZuwum2vEy3jcv9wrCxBjt3"
+assistant_id = "asst_LZveo6W0dJPsAVGHsLaK5O9F"
 
 # 처음 대화할 때 세션을 초기화합니다.
 if 'thread_id' not in st.session_state:
