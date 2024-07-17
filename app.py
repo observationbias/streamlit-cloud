@@ -4,7 +4,6 @@ from openai import OpenAI
 import streamlit as st
 import time
 
-load_dotenv('MBTI API.env')
 API_KEY = st.secrets["general"]["OPENAPI_KEY"]
 client = OpenAI(api_key=API_KEY)
 
