@@ -5,7 +5,7 @@ import streamlit as st
 import time
 
 load_dotenv('MBTI API.env')
-API_KEY = os.environ['OPENAPI_KEY']
+API_KEY = st.secrets["general"]["OPENAPI_KEY"]
 client = OpenAI(api_key=API_KEY)
 
 # 테스트 대화를 나눌 어시스턴트 아이디를 입력합니다.
